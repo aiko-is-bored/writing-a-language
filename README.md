@@ -55,5 +55,37 @@ As you can see, we'll be covering a lot in this book. But that's not all, as we'
 
 
 
-* Writing an interpreter 
-
+* Writing a tree-walking interpreter
+  * Writing an interpreter for Brainfuck
+    * Brainfuck overview
+    * Math in Brainfuck
+    * Resources - Brainfuck
+    * Writing a naive interpreter in Brainfuck
+    * Improving our naive interpreter
+    * Adding optimizations
+  * Writing an interpreter for JavaScript
+    * An introduction into JavaScript
+    * Writing a tree-walking interpreter for JavaScript
+    * Improving our interpreter
+    * (Rust only) - Adding bindings to our interpreter
+ * Writing a native compiler
+   * A gentle introduction into compilers
+     * Overview
+     * What is LLVM?
+     * Who was Terry Davis?
+     * How to compile to LLVM IR
+     * Writing a simple LLVM IR compiler
+     * Compiling to another language
+        * Rust
+        * C
+        * C++
+        * Go
+        * JavaScript
+      * What the actual fuck is happening?
+          * Types of programming languages
+          * Defining a language memory model
+          * Writing a WASM targeting compiler by hand
+       
+ * Theory and more theory
+    * Overview
+    * Introduction to data structures
